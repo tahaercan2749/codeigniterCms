@@ -3,7 +3,7 @@
 				<h4 class="m-b-lg">
                     Ürünler
 
-                    <a href="#" class="btn btn-outline btn-primary btn-xs pull-right">
+                    <a href="<?php echo base_url("product/new_form"); ?>" class="btn btn-outline btn-primary btn-xs pull-right">
                         <i class="fa fa-plus">Yeni Ekle</i>
                     </a>
                 </h4>
@@ -15,7 +15,7 @@
             if(empty($items)){
         ?>
             <div class="alert alert-info text-center">               
-                <p>Burada Herhangi Bir Veri Bulunamadı. Eklemek için <a href="#">Tıklayınız</a></p>
+                <p>Burada Herhangi Bir Veri Bulunamadı. Eklemek için <a href="<?php echo base_url("product/new_form") ?>">Tıklayınız</a></p>
             </div>
 
         <?php   } else {
